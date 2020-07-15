@@ -87,10 +87,9 @@ li
     position: absolute;
     top: 6vh;
     right: 1vh;
-    background-color: #212121;
     border: 0.5px solid;
     border-radius: 5px;
-    border-color: #424242;
+    border-color: #212121;
     padding: 0.5%;
     box-shadow: 0 0 10px #212121;
 }
