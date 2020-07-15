@@ -5,14 +5,49 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./static/css/style.css">
+        <link rel="stylesheet" href="./static/css/base.css">
+        <link rel="stylesheet" href="./static/css/navbar.css">
         
         <link rel="shortcut icon" href="./static/img/favicon.ico" type="image/x-icon">
+
+        <script defer src="./static/js/script.js"></script>
 
         <title>TSEC CodeCell Challenges</title>
     </head>
 
     <body>
-        
+        <nav class="navbar">
+            <div class="left-side">
+                <div class="logo">
+                    <img src="./static/img/codecell_logo.png" alt="TSEC CodeCell">
+                </div>
+    
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Challenges</li></a>
+                    <a href="#"><li>Ranklist</li></a>
+                    <a href="#"><li>TSEC Hacks</li></a>
+                    <a href="#"><li>Contact Us</li></a>
+                </ul>
+            </div>
+
+            <div class="right-side">
+                <div class="account">
+                    <img defer src="http://0.gravatar.com/avatar/804d372a9f85d87238439be303282ee5?s=180" alt="HK">
+                    
+                    <div class="dropdown-caret"></div>
+                </div>
+                
+                <div class="dropdown">
+                    <ul>
+                        <a href="#"><li>HarshKapadia2</li></a>
+                        <a href="#"><li>Your profile</li></a>
+                        <a href="#"><li>Settings</li></a>
+                        <a href="#"><li>Log Out</li></a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </body>
 </html>
