@@ -94,6 +94,20 @@ li
     box-shadow: 0 0 10px #212121;
 }
 
+.user-name
+{
+    margin-bottom: 5%;
+    padding: 2%;
+    width: 180px;
+    border-bottom: 1px solid #212121;
+    color: #757575;
+}
+
+.user-name:hover
+{
+    cursor: default;
+}
+
 .dropdown ul
 {
     display: flex;
