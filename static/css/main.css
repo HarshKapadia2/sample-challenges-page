@@ -41,7 +41,119 @@ main
 
 .right-panel
 {
-    display: flex;
-    align-items: center;
     flex: 0.8;
+    padding-left: 2%;
+}
+
+.title
+{
+    font-size: 50px;
+}
+
+.challenges
+{
+    padding-top: 5%;
+}
+
+.challenges a
+{
+    text-decoration: underline;
+}
+
+.challenge-type
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.all, .unsolved, .completed
+{
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-color: #212121;
+    border-radius: 5px;
+}
+
+.all:hover, .unsolved:hover, .completed:hover
+{
+    background-color: #424242;
+    color: #69f0ae;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.challenges-container-all, .challenges-container-unsolved, .challenges-container-solved
+{
+    padding-top: 5%;
+}
+
+.challenge-type-title
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.week
+{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #212121;
+    border-radius: 5px;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+.week-info
+{
+    display: flex;
+    align-items: baseline;
+}
+
+.week-number
+{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.date-range
+{
+    color: #757575;
+    padding-left: 2%;
+}
+
+table
+{
+    width: 100%;
+    text-align: center;
+}
+
+th
+{
+    color: #69f0ae;
+}
+
+.tr-solved
+{
+    background-color: rgba(105, 240, 174, 0.3); /* RGB of #69f0ae */
+}
+
+.tr-unsolved
+{
+    background-color: rgba(238, 255, 65, 0.4); /* RGB of #eeff41 */
+}
+
+.tr-unattempted
+{
+    background-color: rgba(255, 82, 82, 0.4);
+}
+
+td
+{
+    border-radius: 2px;
 }

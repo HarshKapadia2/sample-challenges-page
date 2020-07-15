@@ -12,6 +12,7 @@
         <link rel="shortcut icon" href="./static/img/favicon.ico" type="image/x-icon">
 
         <script defer src="./static/js/dropdown.js"></script>
+        <script defer src="./static/js/challenge-type.js"></script>
 
         <title>TSEC CodeCell Challenges</title>
     </head>
@@ -70,7 +71,597 @@
             </div>
 
             <div class="right-panel">
-                
+                <div class="title">Challenges</div>
+
+                <div class="challenges">
+                    <div class="challenge-type">
+                        <div class="all">All</div>
+                        <div class="unsolved">Unsolved/Unattempted</div>
+                        <div class="completed">Solved</div>
+                    </div>
+
+                    <div class="challenges-container-all">
+                        <div class="challenge-type-title">All challenges</div>
+
+                        <div class="week">
+                            <div class="week-info">
+                                <div class="week-number">Week 1</div>
+                                <div class="date-range">01-07-2020 to 07-07-2020</div>
+                            </div>
+
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Topic</th>
+                                    <th>Success Rate</th>
+                                    <th>Difficulty</th>
+                                    <th>View</th>
+                                    <th>Editorial</th>
+                                </tr>
+
+                                <tr class="tr-solved">
+                                    <td>1</td>
+                                    <td>Number Looper</td>
+                                    <td>Loops</td>
+                                    <td>30/44</td>
+                                    <td>Easy</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr class="tr-solved">
+                                    <td>2</td>
+                                    <td>Space Pattern</td>
+                                    <td>Loops</td>
+                                    <td>20/40</td>
+                                    <td>Medium</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr class="tr-unsolved">
+                                    <td>3</td>
+                                    <td>Alphabet Pattern</td>
+                                    <td>Loops & strings</td>
+                                    <td>25/35</td>
+                                    <td>Medium</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr class="tr-unattempted">
+                                    <td>4</td>
+                                    <td>Number Pattern</td>
+                                    <td>Loops</td>
+                                    <td>6/20</td>
+                                    <td>Hard</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="week">
+                            <div class="week-info">
+                                <div class="week-number">Week 2</div>
+                                <div class="date-range">08-07-2020 to 14-07-2020</div>
+                            </div>
+
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Topic</th>
+                                    <th>Success Rate</th>
+                                    <th>Difficulty</th>
+                                    <th>View</th>
+                                    <th>Editorial</th>
+                                </tr>
+
+                                <tr class="tr-unattempted">
+                                    <td>1</td>
+                                    <td>Number Looper</td>
+                                    <td>Loops</td>
+                                    <td>30/44</td>
+                                    <td>Easy</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr class="tr-unattempted">
+                                    <td>2</td>
+                                    <td>Space Pattern</td>
+                                    <td>Loops</td>
+                                    <td>20/40</td>
+                                    <td>Medium</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr class="tr-unattempted">
+                                    <td>3</td>
+                                    <td>Alphabet Pattern</td>
+                                    <td>Recursion</td>
+                                    <td>25/35</td>
+                                    <td>Medium</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr class="tr-unattempted">
+                                    <td>4</td>
+                                    <td>Number Pattern</td>
+                                    <td>Hash maps</td>
+                                    <td>6/20</td>
+                                    <td>Hard</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="week">
+                            <div class="week-info">
+                                <div class="week-number">Week 3</div>
+                                <div class="date-range">15-07-2020 to 21-07-2020</div>
+                            </div>
+
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Topic</th>
+                                    <th>Status</th>
+                                    <th>Success Rate</th>
+                                    <th>Difficulty</th>
+                                    <th>View</th>
+                                    <th>Editorial</th>
+                                </tr>
+
+                                <tr>
+                                    <td>1</td>
+                                    <td>Number Looper</td>
+                                    <td>Loops</td>
+                                    <td>Solved</td>
+                                    <td>30/44</td>
+                                    <td>Easy</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>2</td>
+                                    <td>Space Pattern</td>
+                                    <td>Loops</td>
+                                    <td>Solved</td>
+                                    <td>20/40</td>
+                                    <td>Medium</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>Alphabet Pattern</td>
+                                    <td>Loops</td>
+                                    <td>Unsolved</td>
+                                    <td>25/35</td>
+                                    <td>Medium</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>4</td>
+                                    <td>Number Pattern</td>
+                                    <td>Loops</td>
+                                    <td>Unattempted</td>
+                                    <td>6/20</td>
+                                    <td>Hard</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="week">
+                            <div class="week-info">
+                                <div class="week-number">Week 4</div>
+                                <div class="date-range">22-07-2020 to 28-07-2020</div>
+                            </div>
+
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Topic</th>
+                                    <th>Status</th>
+                                    <th>Success Rate</th>
+                                    <th>Difficulty</th>
+                                    <th>View</th>
+                                    <th>Editorial</th>
+                                </tr>
+
+                                <tr>
+                                    <td>1</td>
+                                    <td>Number Looper</td>
+                                    <td>Loops</td>
+                                    <td>Unattempted</td>
+                                    <td>30/44</td>
+                                    <td>Easy</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>2</td>
+                                    <td>Space Pattern</td>
+                                    <td>Loops</td>
+                                    <td>Unattempted</td>
+                                    <td>20/40</td>
+                                    <td>Medium</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>Alphabet Pattern</td>
+                                    <td>Loops</td>
+                                    <td>Unattempted</td>
+                                    <td>25/35</td>
+                                    <td>Medium</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>4</td>
+                                    <td>Number Pattern</td>
+                                    <td>Loops</td>
+                                    <td>Unattempted</td>
+                                    <td>6/20</td>
+                                    <td>Hard</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="challenges-container-unsolved">
+                        <div class="challenge-type-title">Unsolved/unattempted challenges</div>
+
+                        <div class="week">
+                            <div class="week-info">
+                                <div class="week-number">Week 1</div>
+                                <div class="date-range">01-07-2020 to 07-07-2020</div>
+                            </div>
+
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Topic</th>
+                                    <th>Success Rate</th>
+                                    <th>Difficulty</th>
+                                    <th>View</th>
+                                    <th>Editorial</th>
+                                </tr>
+
+                                <tr class="tr-unsolved">
+                                    <td>3</td>
+                                    <td>Alphabet Pattern</td>
+                                    <td>Loops & strings</td>
+                                    <td>25/35</td>
+                                    <td>Medium</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr class="tr-unattempted">
+                                    <td>4</td>
+                                    <td>Number Pattern</td>
+                                    <td>Loops</td>
+                                    <td>6/20</td>
+                                    <td>Hard</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="week">
+                            <div class="week-info">
+                                <div class="week-number">Week 2</div>
+                                <div class="date-range">08-07-2020 to 14-07-2020</div>
+                            </div>
+
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Topic</th>
+                                    <th>Success Rate</th>
+                                    <th>Difficulty</th>
+                                    <th>View</th>
+                                    <th>Editorial</th>
+                                </tr>
+
+                                <tr class="tr-unattempted">
+                                    <td>1</td>
+                                    <td>Number Looper</td>
+                                    <td>Loops</td>
+                                    <td>30/44</td>
+                                    <td>Easy</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr class="tr-unattempted">
+                                    <td>2</td>
+                                    <td>Space Pattern</td>
+                                    <td>Loops</td>
+                                    <td>20/40</td>
+                                    <td>Medium</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr class="tr-unattempted">
+                                    <td>3</td>
+                                    <td>Alphabet Pattern</td>
+                                    <td>Recursion</td>
+                                    <td>25/35</td>
+                                    <td>Medium</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr class="tr-unattempted">
+                                    <td>4</td>
+                                    <td>Number Pattern</td>
+                                    <td>Hash maps</td>
+                                    <td>6/20</td>
+                                    <td>Hard</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="week">
+                            <div class="week-info">
+                                <div class="week-number">Week 3</div>
+                                <div class="date-range">15-07-2020 to 21-07-2020</div>
+                            </div>
+
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Topic</th>
+                                    <th>Status</th>
+                                    <th>Success Rate</th>
+                                    <th>Difficulty</th>
+                                    <th>View</th>
+                                    <th>Editorial</th>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>Alphabet Pattern</td>
+                                    <td>Loops</td>
+                                    <td>Unsolved</td>
+                                    <td>25/35</td>
+                                    <td>Medium</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>4</td>
+                                    <td>Number Pattern</td>
+                                    <td>Loops</td>
+                                    <td>Unattempted</td>
+                                    <td>6/20</td>
+                                    <td>Hard</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="week">
+                            <div class="week-info">
+                                <div class="week-number">Week 4</div>
+                                <div class="date-range">22-07-2020 to 28-07-2020</div>
+                            </div>
+
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Topic</th>
+                                    <th>Status</th>
+                                    <th>Success Rate</th>
+                                    <th>Difficulty</th>
+                                    <th>View</th>
+                                    <th>Editorial</th>
+                                </tr>
+
+                                <tr>
+                                    <td>1</td>
+                                    <td>Number Looper</td>
+                                    <td>Loops</td>
+                                    <td>Unattempted</td>
+                                    <td>30/44</td>
+                                    <td>Easy</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>2</td>
+                                    <td>Space Pattern</td>
+                                    <td>Loops</td>
+                                    <td>Unattempted</td>
+                                    <td>20/40</td>
+                                    <td>Medium</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>Alphabet Pattern</td>
+                                    <td>Loops</td>
+                                    <td>Unattempted</td>
+                                    <td>25/35</td>
+                                    <td>Medium</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>4</td>
+                                    <td>Number Pattern</td>
+                                    <td>Loops</td>
+                                    <td>Unattempted</td>
+                                    <td>6/20</td>
+                                    <td>Hard</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="challenges-container-solved">
+                        <div class="challenge-type-title">Solved challenges</div>
+
+                        <div class="week">
+                            <div class="week-info">
+                                <div class="week-number">Week 1</div>
+                                <div class="date-range">01-07-2020 to 07-07-2020</div>
+                            </div>
+
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Topic</th>
+                                    <th>Success Rate</th>
+                                    <th>Difficulty</th>
+                                    <th>View</th>
+                                    <th>Editorial</th>
+                                </tr>
+
+                                <tr class="tr-solved">
+                                    <td>1</td>
+                                    <td>Number Looper</td>
+                                    <td>Loops</td>
+                                    <td>30/44</td>
+                                    <td>Easy</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr class="tr-solved">
+                                    <td>2</td>
+                                    <td>Space Pattern</td>
+                                    <td>Loops</td>
+                                    <td>20/40</td>
+                                    <td>Medium</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="week">
+                            <div class="week-info">
+                                <div class="week-number">Week 2</div>
+                                <div class="date-range">08-07-2020 to 14-07-2020</div>
+                            </div>
+
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Topic</th>
+                                    <th>Success Rate</th>
+                                    <th>Difficulty</th>
+                                    <th>View</th>
+                                    <th>Editorial</th>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="week">
+                            <div class="week-info">
+                                <div class="week-number">Week 3</div>
+                                <div class="date-range">15-07-2020 to 21-07-2020</div>
+                            </div>
+
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Topic</th>
+                                    <th>Status</th>
+                                    <th>Success Rate</th>
+                                    <th>Difficulty</th>
+                                    <th>View</th>
+                                    <th>Editorial</th>
+                                </tr>
+
+                                <tr>
+                                    <td>1</td>
+                                    <td>Number Looper</td>
+                                    <td>Loops</td>
+                                    <td>Solved</td>
+                                    <td>30/44</td>
+                                    <td>Easy</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>2</td>
+                                    <td>Space Pattern</td>
+                                    <td>Loops</td>
+                                    <td>Solved</td>
+                                    <td>20/40</td>
+                                    <td>Medium</td>
+                                    <td><a href="#">Solve</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="week">
+                            <div class="week-info">
+                                <div class="week-number">Week 4</div>
+                                <div class="date-range">22-07-2020 to 28-07-2020</div>
+                            </div>
+
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Topic</th>
+                                    <th>Status</th>
+                                    <th>Success Rate</th>
+                                    <th>Difficulty</th>
+                                    <th>View</th>
+                                    <th>Editorial</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
     </body>
