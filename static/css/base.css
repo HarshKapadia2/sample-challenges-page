@@ -22,3 +22,8 @@ a:hover
 {
     color: #69f0ae;
 }
+
+.hide
+{
+    display: none;
+}
