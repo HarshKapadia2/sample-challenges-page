@@ -157,3 +157,9 @@ td
 {
     border-radius: 2px;
 }
+
+.highlight
+{
+    color: #69f0ae;
+    background-color: #424242;
+}

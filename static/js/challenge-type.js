@@ -12,6 +12,8 @@ window.addEventListener
     "load",
     () =>
     {
+        all_challenges_button.classList.add("highlight");
+
         unsolved_challenges.classList.add("hide");
         solved_challenges.classList.add("hide");
     }
@@ -22,6 +24,10 @@ all_challenges_button.addEventListener
     "click",
     () =>
     {
+        all_challenges_button.classList.add("highlight");
+        unsolved_challenges_button.classList.remove("highlight");
+        solved_challenges_button.classList.remove("highlight");
+        
         all_challenges.classList.remove("hide");
         unsolved_challenges.classList.add("hide");
         solved_challenges.classList.add("hide");
@@ -33,6 +39,10 @@ unsolved_challenges_button.addEventListener
     "click",
     () =>
     {
+        all_challenges_button.classList.remove("highlight");
+        unsolved_challenges_button.classList.add("highlight");
+        solved_challenges_button.classList.remove("highlight");
+        
         all_challenges.classList.add("hide");
         unsolved_challenges.classList.remove("hide");
         solved_challenges.classList.add("hide");
@@ -44,6 +54,10 @@ solved_challenges_button.addEventListener
     "click",
     () =>
     {
+        all_challenges_button.classList.remove("highlight");
+        unsolved_challenges_button.classList.remove("highlight");
+        solved_challenges_button.classList.add("highlight");
+
         all_challenges.classList.add("hide");
         unsolved_challenges.classList.add("hide");
         solved_challenges.classList.remove("hide");
