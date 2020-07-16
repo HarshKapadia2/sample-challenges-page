@@ -12,7 +12,8 @@
         
         <link rel="shortcut icon" href="./static/img/favicon.ico" type="image/x-icon">
 
-        <script defer src="./static/js/dropdown.js"></script>
+        <script defer src="./static/js/account_dropdown.js"></script>
+        <script defer src="./static/js/burger_menu_dropdown.js"></script>
         <script defer src="./static/js/challenge-type.js"></script>
 
         <title>TSEC CodeCell Challenges</title>
@@ -21,11 +22,17 @@
     <body>
         <nav class="navbar">
             <div class="left-side">
+                <div class="burger-menu">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <div class="line-3"></div>
+                </div>
+
                 <div class="logo">
                     <img src="./static/img/codecell_logo.png" alt="TSEC CodeCell">
                 </div>
     
-                <ul>
+                <ul class="navbar-main-ul">
                     <a href="#"><li>Home</li></a>
                     <a href="#"><li>About</li></a>
                     <a href="#"><li>Challenges</li></a>

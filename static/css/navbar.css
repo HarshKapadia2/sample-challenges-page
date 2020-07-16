@@ -87,6 +87,7 @@ li
     border-color: #212121;
     padding: 0.5%;
     box-shadow: 0 0 10px #212121;
+    background-color: black;
 }
 
 .user-name
@@ -121,4 +122,63 @@ li
 {
     background-color: #424242;
     border-radius: 3px;
+}
+
+
+/* Media query */
+
+@media screen and (max-width: 1200px)
+{
+    .logo
+    {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .burger-menu
+    {
+        flex: 0.1;
+        padding-left: 2%;
+    }
+
+    .burger-menu:hover
+    {
+        cursor: pointer;
+    }
+    
+    .line-1, .line-2, .line-3
+    {
+        width: 25px;
+        height: 3px;
+        background-color: #f5f5f5;
+        margin: 5px;
+    }
+}
+
+.burger-menu-dropdown
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    margin: auto;
+    padding-left: 5vh;
+    background-color: rgba(0, 0, 0, 0.9); /* RGB of black */
+}
+
+.burger-menu-dropdown li
+{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+
+.burger-menu-dropdown li:hover
+{
+    color: #69f0ae;
+    background-color: rgba(66, 66, 66, 0.3);
+    border-radius: 8px;
 }
