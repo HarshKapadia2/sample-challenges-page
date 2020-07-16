@@ -1,6 +1,6 @@
 .navbar
 {
-    height: 7vh;
+    height: 10vh;
     display: flex;
     align-items: center;
 }
@@ -19,7 +19,7 @@
 
 .logo img
 {
-    height: 5vh;
+    height: 7vh;
 }
 
 ul
@@ -37,7 +37,7 @@ li
 
 .left-side li
 {
-    height: 7vh;
+    height: 10vh;
     display: flex;
     align-items: center;
 }
@@ -80,7 +80,7 @@ li
 .dropdown
 {
     position: absolute;
-    top: 6vh;
+    top: 8vh;
     right: 1vh;
     border: 0.5px solid;
     border-radius: 5px;
