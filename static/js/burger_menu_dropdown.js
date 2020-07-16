@@ -8,7 +8,7 @@ window.addEventListener
     {
         const width = document.documentElement.clientWidth;
 
-        if(width < 1183)
+        if(width <= 1183)
             ul.classList.add("hide");
     }
 );
@@ -20,7 +20,7 @@ window.addEventListener
     {
         const width = document.documentElement.clientWidth;
 
-        if(width < 1183)
+        if(width <= 1183)
             ul.classList.add("hide");
         else
            ul.classList.remove("hide");
