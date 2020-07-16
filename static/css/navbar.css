@@ -88,6 +88,7 @@ li
     padding: 0.5%;
     box-shadow: 0 0 10px #212121;
     background-color: black;
+    z-index: 2;
 }
 
 .user-name
