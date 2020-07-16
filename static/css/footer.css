@@ -14,7 +14,7 @@ footer
 footer:hover
 {
     animation: fade 0.3s ease;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 .social-media-img
@@ -36,6 +36,6 @@ footer:hover
 
     100%
     {
-        opacity: 0.7;
+        opacity: 0.9;
     }
 }
