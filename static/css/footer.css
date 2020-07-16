@@ -39,3 +39,13 @@ footer:hover
         opacity: 0.9;
     }
 }
+
+/* Media query */
+
+@media screen and (max-width: 500px)
+{
+    footer
+    {
+        opacity: 0.9;
+    }
+}
