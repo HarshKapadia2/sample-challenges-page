@@ -163,3 +163,130 @@ td
     color: #69f0ae;
     background-color: #424242;
 }
+
+
+/* Media queries */
+
+@media screen and (max-width: 1295px)
+{
+    main
+    {
+        width: 95%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    main
+    {
+        flex-direction: column;
+    }
+
+    .left-panel
+    {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .account-details
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 2%;
+    }
+
+    .right-panel
+    {
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .account-img
+    {
+        display: flex;
+        align-items: center;
+    }
+    
+    .account-img img
+    {
+        height: 15vh;
+        border-radius: 50px;
+    }
+
+    .name
+    {
+        font-size: 20px;
+    }
+
+    .username, .year-branch, .stats
+    {
+        font-size: 15px;
+    }
+
+    .right-panel
+    {
+        padding-top: 5%;
+    }
+
+    .title
+    {
+        font-size: 30px;
+    }
+
+    .challenge-type
+    {
+        flex-direction: column;
+    }
+
+    .all, .unsolved, .completed
+    {
+        margin: 2%;
+        padding: 3% 6%;
+    }
+
+    .challenge-type-title
+    {
+        padding-top: 10%;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+
+    .week
+    {
+        margin-bottom: 10%;
+    }
+
+    .week-info
+    {
+        flex-direction: column;
+    }
+
+    .week-number
+    {
+        font-size: 20px;
+        padding: 2%;
+    }
+
+    .date-range
+    {
+        font-size: 10px;
+    }
+
+    .table-limits
+    {
+        width: 90vw;
+        overflow: auto;
+    }
+
+    tr
+    {
+        font-size: 15px;
+    }
+}
