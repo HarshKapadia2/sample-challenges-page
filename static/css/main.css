@@ -87,6 +87,20 @@ main
 .challenges-container-all, .challenges-container-unsolved, .challenges-container-solved
 {
     padding-top: 5%;
+    animation: slide 0.3s linear;
+}
+
+@keyframes slide
+{
+    0%
+    {
+        transform: translateY(5px);
+    }
+
+    100%
+    {
+        transform: translateY(0);
+    }
 }
 
 .challenge-type-title
