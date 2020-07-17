@@ -40,7 +40,15 @@ footer:hover
     }
 }
 
-/* Media query */
+/* Media queries */
+
+@media screen and (max-width: 1295px)
+{
+    footer
+    {
+        width: 95%;
+    }
+}
 
 @media screen and (max-width: 500px)
 {
