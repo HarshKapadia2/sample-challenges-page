@@ -275,6 +275,7 @@ td
     .week
     {
         margin-bottom: 10%;
+        padding: 0;
     }
 
     .week-info
