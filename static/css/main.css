@@ -170,6 +170,7 @@ th
 td
 {
     border-radius: 2px;
+    padding: 0.5%;
 }
 
 .highlight
@@ -303,5 +304,10 @@ td
     tr
     {
         font-size: 15px;
+    }
+
+    td
+    {
+        padding: 1%;
     }
 }
