@@ -1,20 +1,21 @@
 const dropdown = document.querySelector(".dropdown");
 const account = document.querySelector(".account");
 
-window.addEventListener
+account.addEventListener
 (
-    "load",
-    () =>
+    "click",
+    (event) =>
     {
-        dropdown.classList.add("hide");
+        dropdown.classList.toggle("hide");
+        event.stopPropagation();
     }
 );
 
-account.addEventListener
+window.addEventListener
 (
     "click",
     () =>
     {
-        dropdown.classList.toggle("hide");
+        dropdown.classList.add("hide");
     }
 );
