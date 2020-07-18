@@ -7,18 +7,6 @@ const unsolved_challenges_button = document.querySelector(".unsolved");
 const solved_challenges = document.querySelector(".challenges-container-solved");
 const solved_challenges_button = document.querySelector(".completed");
 
-window.addEventListener
-(
-    "load",
-    () =>
-    {
-        all_challenges_button.classList.add("highlight");
-
-        unsolved_challenges.classList.add("hide");
-        solved_challenges.classList.add("hide");
-    }
-);
-
 all_challenges_button.addEventListener
 (
     "click",
