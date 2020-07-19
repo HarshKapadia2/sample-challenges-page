@@ -1,6 +1,6 @@
 # sample-challenges-page
 
-A sample web page for listing competitive coding challenges made using HTML, vailla CSS and JS.
+A sample web page for listing competitive coding challenges made using HTML, vanilla CSS and JS.
 
 Hosted at https://harshkapadia2.github.io/sample-challenges-page/
 
