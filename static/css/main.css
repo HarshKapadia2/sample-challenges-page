@@ -143,8 +143,13 @@ main
 
 table
 {
-    width: 100%;
-    text-align: center;
+	width: 100%;
+	text-align: center;
+}
+
+.table-type-2
+{
+	border-spacing: 5px 5px;
 }
 
 th
